@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Left Panel -->
+    <div class="left-panel panel">
+      <div class="header-bar">
+        <!-- Heading -->
+        <h3>ADD TOPIC</h3>
+      </div>
+
+      <p class="white-text small-text">
+        Get notified about things that you'd like to follow!
+        <br />
+        Add a topic in the search box below to get started
+      </p>
+
+      <input
+        type="text"
+        id="topic-search-input"
+        placeholder="Notify my when..."
+      />
+
+      <button id="topic-search-button">Notify Me !</button>
+
+      <img
+        id="bino-bunny"
+        src="./img/BinoBunny.svg"
+        alt="Bunny with binoculars"
+      />
+
+      <p class="image-text">
+        Look for topics you <br />
+        want to keep track of
+      </p>
+    </div>
+
+    <!-- Middle Panel -->
+    <div class="middle-panel panel">
+      <div class="header-bar">
+        <!-- Heading -->
+        <h3>FOLLOWING</h3>
+      </div>
+
+      <p class="white-text small-text">
+        These are the topics you are currently following, with alerts being
+        generated from data pulled off of Reddit posts
+      </p>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel panel">
+      <div class="header-bar">
+        <!-- Heading -->
+        <h3>NOTIFICATIONS</h3>
+
+        <!-- Window Navigation -->
+        <div>
+          <button id="minimise-button">-</button>
+          <button id="close-button">&times;</button>
+        </div>
+      </div>
+
+      <div class="notification-container">
+        <div class="notification-card">
+          <h6>Topic name</h6>
+          <h6>. 5:33pm Yesterday</h6>
+          <p>
+            Topic text Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Facere maiores praesentium cumque, rerum ut, nemo voluptatum
+            deserunt tempora accusamus nostrum tempore repellat dolore eos,
+            dolor nesciunt! Cupiditate ducimus doloribus voluptatem?
+          </p>
+        </div>
+        <div class="notification-card">
+          <h6>Topic name</h6>
+          <h6>. 5:33pm Yesterday</h6>
+          <p>
+            Topic text Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Facere maiores praesentium cumque, rerum ut, nemo voluptatum
+            deserunt tempora accusamus nostrum tempore repellat dolore eos,
+            dolor nesciunt! Cupiditate ducimus doloribus voluptatem?
+          </p>
+        </div>
+        <div class="notification-card">
+          <h6>Topic name</h6>
+          <h6>. 5:33pm Yesterday</h6>
+          <p>
+            Topic text Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Facere maiores praesentium cumque, rerum ut, nemo voluptatum
+            deserunt tempora accusamus nostrum tempore repellat dolore eos,
+            dolor nesciunt! Cupiditate ducimus doloribus voluptatem?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add Javascript -->
+    <script src="./main.js"></script>
+  </body>
+</html>

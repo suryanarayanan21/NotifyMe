@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  -webkit-app-region: drag;
+}
+
+p {
+  text-align: left;
+}
+
+.image-text {
+  opacity: 0.5;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+
+.white-text {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.small-text {
+  font-size: 0.8em;
+}
+
+.panel {
+  padding: 20px;
+}
+
+.left-panel {
+  background-color: #313131;
+  height: 100%;
+  min-width: 240px;
+  width: 30%;
+  text-align: center;
+}
+
+#topic-search-input {
+  -webkit-app-region: no-drag;
+  height: 45px;
+  background-color: #1d1d1d;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  margin: 25px 0 10px 0;
+  outline: none;
+  color: white;
+}
+
+#topic-search-button {
+  height: 45px;
+  background-color: #f96f5d;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  margin: 3px 0 0 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+#bino-bunny {
+  margin: 50px 0 0;
+  width: 80%;
+  opacity: 0.5;
+}
+
+.middle-panel {
+  background-color: #161616;
+  height: 100%;
+  min-width: 320px;
+  width: 40%;
+}
+
+.right-panel {
+  background-color: #4c4f6d;
+  height: 100%;
+  min-width: 240px;
+  width: 30%;
+  text-align: center;
+}
+
+.header-bar {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-bar h3 {
+  display: inline-block;
+  color: rgba(256, 256, 256, 0.8);
+  font-size: 1.2em;
+}
+
+.header-bar button {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(256, 256, 256, 0.8);
+  font-size: 1.2em;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
+}
+
+.template {
+  display: none;
+}
+
+.notification-card {
+  -webkit-app-region: no-drag;
+  text-align: left;
+  height: 70px;
+  width: 106%;
+  left: -3%;
+  position: relative;
+  background-color: rgba(256, 256, 256, 0.2);
+  border-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  color: white;
+  margin: 5px 0px;
+}
+
+.notification-card h6 {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 0;
+  font-weight: normal;
+}
+
+.notification-card p {
+  margin: 2px 0 0;
+  width: 80%;
+  font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
