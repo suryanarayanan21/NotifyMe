@@ -1,3 +1,6 @@
+import run from "./nlp/tags.js";
+import getAuthToken from "./infoget/searchReddit.js";
+
 // Utility definitions
 
 let close_window = () => {
@@ -16,6 +19,10 @@ document
 
 document.getElementById("close-button").addEventListener("click", close_window);
 
-document.getElementById("size-toggle").addEventListener("click", () => {
-  require("electron").remote.getCurrentWindow().setSize(1200, 600, true);
-});
+// Test
+let test = async () => {
+  let token = await getAuthToken();
+  console.log(token);
+};
+
+test();
